@@ -1,15 +1,15 @@
 package com.demo.test;
 
-import com.demo.graphs.AdjacencyList;
+import com.demo.graphs.AdjescencyList;
 
-public class TestDFS {
+public class TestDfs {
 
 	public static void main(String[] args) {
-		AdjacencyList graph=new AdjacencyList(7);
+		AdjescencyList graph=new AdjescencyList(7);
 		graph.addGraph();
-		graph.displayGraph();
+		graph.displaydata();
 		graph.dfsTraversal(0);
-		graph.bfsTraversal(0);
+		//graph.bfsTraversal(0);
 
 	}
 
